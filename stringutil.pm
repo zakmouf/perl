@@ -1,5 +1,14 @@
 #!/usr/bin/perl
 
+use strict;
+use warnings;
+
+package strigutil;
+use vars qw(@ISA @EXPORT);
+use Exporter;
+@ISA    = qw(Exporter);
+@EXPORT = qw( read_file_as_string );
+
 sub read_file_as_string {
   my ($source) = @_;
   open my $in, '<', $source or die ("cannot open file $source");

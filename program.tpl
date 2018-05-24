@@ -1,5 +1,6 @@
-99999 STOP
-99999 DEL program.log
+begin1
+begin2
+begin3
 begin_loop
 99999 ! ####################
 line21
@@ -16,5 +17,6 @@ line30
 line31
 line32
 end_loop
-99999 ! ####################
-99999 BYE
+end1
+end2
+end3
